@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion';
 import { Download, ArrowDown } from 'lucide-react';
 import { useEffect, useState } from 'react';
+import profileImg from '../formal_passport_1.jpg';
 
 const Hero = () => {
   const [text, setText] = useState('');
@@ -145,7 +146,7 @@ const Hero = () => {
                 className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden glass-card flex items-center justify-center animate-float"
               >
                 <img
-  src="/formal passport 1.jpg"
+  src={profileImg}
   alt="Profile"
   className="w-full h-full object-cover"
 />
