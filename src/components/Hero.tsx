@@ -107,11 +107,12 @@ const Hero = () => {
             >
               <a
                 href="/RESUME (3).pdf"
-                download
+                target="_blank"
+                rel="noopener noreferrer"
                 className="neon-button inline-flex items-center justify-center gap-2"
               >
                 <Download className="w-5 h-5" />
-                Download Resume
+                Open Resume
               </a>
               <button
                 onClick={scrollToProjects}
